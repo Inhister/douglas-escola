@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+html {
+	zoom: 1.75;
+	font-family: 'Quicksand', sans-serif;
+	color: aliceblue;
+	background-color: rgb(109, 150, 151);
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(187, 219, 219);
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(75, 103, 104);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(55, 76, 77);
+	border-radius: 5px;
+} 
+
+#desenhos {
+	margin: auto;
+	max-width: 600px;
+}
+
+li {
+	list-style-type: none;
+}
+
+#insta {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	margin-right: 45px;
+	height: 25px;
+}
+
+img {
+	margin: auto;
+	border-radius: 5px;
+	height: 150px;
+	transition-duration: 300ms;
+}
+
+* img:hover {
+	transform: scale(102%);
+	transition-duration: 300ms;
+}
